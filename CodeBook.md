@@ -36,177 +36,100 @@ The following describes the steps taken to clean up the dataset into tidy data:
 
 The following are the details of the data in the columns of the resulting tidy_data.txt file:
 
-| 1 | Activity | Activity Description |
+| Col | Col Name | Column Details |
 | --- | --------- | -----------------------------------------------|
+| 1 | Activity | Activity Description |
 | 2 | Subject | Subject ID |
 |3|tBodyAcc.mean.X|Mean of the tBodyAcc.mean.X data from the original dataset for the given activity & subject|
-
 |4|tBodyAcc.mean.Y|Mean of the tBodyAcc.mean.Y data from the original dataset for the given activity & subject|
-
 |5|tBodyAcc.mean.Z|Mean of the tBodyAcc.mean.Z data from the original dataset for the given activity & subject|
-
 |6|tBodyAcc.std.X|Mean of the tBodyAcc.std.X data from the original dataset for the given activity & subject|
-
 |7|tBodyAcc.std.Y|Mean of the tBodyAcc.std.Y data from the original dataset for the given activity & subject|
-
 |8|tBodyAcc.std.Z|Mean of the tBodyAcc.std.Z data from the original dataset for the given activity & subject|
-
 |9|tGravityAcc.mean.X|Mean of the tGravityAcc.mean.X data from the original dataset for the given activity & subject|
-
 |10|tGravityAcc.mean.Y|Mean of the tGravityAcc.mean.Y data from the original dataset for the given activity & subject|
-
 |11|tGravityAcc.mean.Z|Mean of the tGravityAcc.mean.Z data from the original dataset for the given activity & subject|
-
 |12|tGravityAcc.std.X|Mean of the tGravityAcc.std.X data from the original dataset for the given activity & subject|
-
 |13|tGravityAcc.std.Y|Mean of the tGravityAcc.std.Y data from the original dataset for the given activity & subject|
-
 |14|tGravityAcc.std.Z|Mean of the tGravityAcc.std.Z data from the original dataset for the given activity & subject|
-
 |15|tBodyAccJerk.mean.X|Mean of the tBodyAccJerk.mean.X data from the original dataset for the given activity & subject|
-
 |16|tBodyAccJerk.mean.Y|Mean of the tBodyAccJerk.mean.Y data from the original dataset for the given activity & subject|
-
 |17|tBodyAccJerk.mean.Z|Mean of the tBodyAccJerk.mean.Z data from the original dataset for the given activity & subject|
-
 |18|tBodyAccJerk.std.X|Mean of the tBodyAccJerk.std.X data from the original dataset for the given activity & subject|
-
 |19|tBodyAccJerk.std.Y|Mean of the tBodyAccJerk.std.Y data from the original dataset for the given activity & subject|
-
 |20|tBodyAccJerk.std.Z|Mean of the tBodyAccJerk.std.Z data from the original dataset for the given activity & subject|
-
 |21|tBodyGyro.mean.X|Mean of the tBodyGyro.mean.X data from the original dataset for the given activity & subject|
-
 |22|tBodyGyro.mean.Y|Mean of the tBodyGyro.mean.Y data from the original dataset for the given activity & subject|
-
 |23|tBodyGyro.mean.Z|Mean of the tBodyGyro.mean.Z data from the original dataset for the given activity & subject|
-
 |24|tBodyGyro.std.X|Mean of the tBodyGyro.std.X data from the original dataset for the given activity & subject|
-
 |25|tBodyGyro.std.Y|Mean of the tBodyGyro.std.Y data from the original dataset for the given activity & subject|
-
 |26|tBodyGyro.std.Z|Mean of the tBodyGyro.std.Z data from the original dataset for the given activity & subject|
-
 |27|tBodyGyroJerk.mean.X|Mean of the tBodyGyroJerk.mean.X data from the original dataset for the given activity & 
 subject|
-
 |28|tBodyGyroJerk.mean.Y|Mean of the tBodyGyroJerk.mean.Y data from the original dataset for the given activity & 
 subject|
-
 |29|tBodyGyroJerk.mean.Z|Mean of the tBodyGyroJerk.mean.Z data from the original dataset for the given activity & subject|
-
 |30|tBodyGyroJerk.std.X|Mean of the tBodyGyroJerk.std.X data from the original dataset for the given activity & subject|
-
 |31|tBodyGyroJerk.std.Y|Mean of the tBodyGyroJerk.std.Y data from the original dataset for the given activity & subject|
-
 |32|tBodyGyroJerk.std.Z|Mean of the tBodyGyroJerk.std.Z data from the original dataset for the given activity & subject|
-
 |33|tBodyAccMag.mean.|Mean of the tBodyAccMag.mean. data from the original dataset for the given activity & subject|
-
 |34|tBodyAccMag.std.|Mean of the tBodyAccMag.std. data from the original dataset for the given activity & subject|
-
 |35|tGravityAccMag.mean.|Mean of the tGravityAccMag.mean. data from the original dataset for the given activity & 
 subject|
-
 |36|tGravityAccMag.std.|Mean of the tGravityAccMag.std. data from the original dataset for the given activity & subject|
-
 |37|tBodyAccJerkMag.mean.|Mean of the tBodyAccJerkMag.mean. data from the original dataset for the given activity & 
 subject|
-
 |38|tBodyAccJerkMag.std.|Mean of the tBodyAccJerkMag.std. data from the original dataset for the given activity & 
 subject|
-
 |39|tBodyGyroMag.mean.|Mean of the tBodyGyroMag.mean. data from the original dataset for the given activity & subject|
-
 |40|tBodyGyroMag.std.|Mean of the tBodyGyroMag.std. data from the original dataset for the given activity & subject|
-
 |41|tBodyGyroJerkMag.mean.|Mean of the tBodyGyroJerkMag.mean. data from the original dataset for the given activity & 
 subject|
-
 |42|tBodyGyroJerkMag.std.|Mean of the tBodyGyroJerkMag.std. data from the original dataset for the given activity & 
 subject|
-
 |43|fBodyAcc.mean.X|Mean of the fBodyAcc.mean.X data from the original dataset for the given activity & subject|
-
 |44|fBodyAcc.mean.Y|Mean of the fBodyAcc.mean.Y data from the original dataset for the given activity & subject|
-
 |45|fBodyAcc.mean.Z|Mean of the fBodyAcc.mean.Z data from the original dataset for the given activity & subject|
-
 |46|fBodyAcc.std.X|Mean of the fBodyAcc.std.X data from the original dataset for the given activity & subject|
-
 |47|fBodyAcc.std.Y|Mean of the fBodyAcc.std.Y data from the original dataset for the given activity & subject|
-
 |48|fBodyAcc.std.Z|Mean of the fBodyAcc.std.Z data from the original dataset for the given activity & subject|
-
 |49|fBodyAcc.meanFreq.X|Mean of the fBodyAcc.meanFreq.X data from the original dataset for the given activity & subject|
-
 |50|fBodyAcc.meanFreq.Y|Mean of the fBodyAcc.meanFreq.Y data from the original dataset for the given activity & subject|
-
 |51|fBodyAcc.meanFreq.Z|Mean of the fBodyAcc.meanFreq.Z data from the original dataset for the given activity & subject|
-
 |52|fBodyAccJerk.mean.X|Mean of the fBodyAccJerk.mean.X data from the original dataset for the given activity & subject|
-
 |53|fBodyAccJerk.mean.Y|Mean of the fBodyAccJerk.mean.Y data from the original dataset for the given activity & subject|
-
 |54|fBodyAccJerk.mean.Z|Mean of the fBodyAccJerk.mean.Z data from the original dataset for the given activity & subject|
-
 |55|fBodyAccJerk.std.X|Mean of the fBodyAccJerk.std.X data from the original dataset for the given activity & subject|
-
 |56|fBodyAccJerk.std.Y|Mean of the fBodyAccJerk.std.Y data from the original dataset for the given activity & subject|
-
 |57|fBodyAccJerk.std.Z|Mean of the fBodyAccJerk.std.Z data from the original dataset for the given activity & subject|
-
 |58|fBodyAccJerk.meanFreq.X|Mean of the fBodyAccJerk.meanFreq.X data from the original dataset for the given activity & 
 subject|
-
 |59|fBodyAccJerk.meanFreq.Y|Mean of the fBodyAccJerk.meanFreq.Y data from the original dataset for the given activity & 
 subject|
-
 |60|fBodyAccJerk.meanFreq.Z|Mean of the fBodyAccJerk.meanFreq.Z data from the original dataset for the given activity & 
 subject|
-
 |61|fBodyGyro.mean.X|Mean of the fBodyGyro.mean.X data from the original dataset for the given activity & subject|
-
 |62|fBodyGyro.mean.Y|Mean of the fBodyGyro.mean.Y data from the original dataset for the given activity & subject|
-
 |63|fBodyGyro.mean.Z|Mean of the fBodyGyro.mean.Z data from the original dataset for the given activity & subject|
-
 |64|fBodyGyro.std.X|Mean of the fBodyGyro.std.X data from the original dataset for the given activity & subject|
-
 |65|fBodyGyro.std.Y|Mean of the fBodyGyro.std.Y data from the original dataset for the given activity & subject|
-
 |66|fBodyGyro.std.Z|Mean of the fBodyGyro.std.Z data from the original dataset for the given activity & subject|
-
 |67|fBodyGyro.meanFreq.X|Mean of the fBodyGyro.meanFreq.X data from the original dataset for the given activity & 
 subject|
-
 |68|fBodyGyro.meanFreq.Y|Mean of the fBodyGyro.meanFreq.Y data from the original dataset for the given activity & 
 subject|
-
 |69|fBodyGyro.meanFreq.Z|Mean of the fBodyGyro.meanFreq.Z data from the original dataset for the given activity & 
 subject|
-
 |70|fBodyAccMag.mean.|Mean of the fBodyAccMag.mean. data from the original dataset for the given activity & subject|
-
 |71|fBodyAccMag.std.|Mean of the fBodyAccMag.std. data from the original dataset for the given activity & subject|
-
 |72|fBodyAccMag.meanFreq.|Mean of the fBodyAccMag.meanFreq. data from the original dataset for the given activity & 
 subject|
-
 |73|fBodyBodyAccJerkMag.mean.|Mean of the fBodyBodyAccJerkMag.mean. data from the original dataset for the given activity & subject|
-
 |74|fBodyBodyAccJerkMag.std.|Mean of the fBodyBodyAccJerkMag.std. data from the original dataset for the given activity & subject|
-
 |75|fBodyBodyAccJerkMag.meanFreq.|Mean of the fBodyBodyAccJerkMag.meanFreq. data from the original dataset for the given activity & subject|
-
 |76|fBodyBodyGyroMag.mean.|Mean of the fBodyBodyGyroMag.mean. data from the original dataset for the given activity & subject|
-
 |77|fBodyBodyGyroMag.std.|Mean of the fBodyBodyGyroMag.std. data from the original dataset for the given activity & subject|
-
 |78|fBodyBodyGyroMag.meanFreq.|Mean of the fBodyBodyGyroMag.meanFreq. data from the original dataset for the given activity & subject|
-
 |79|fBodyBodyGyroJerkMag.mean.|Mean of the fBodyBodyGyroJerkMag.mean. data from the original dataset for the given activity & subject|
-
 |80|fBodyBodyGyroJerkMag.std.|Mean of the fBodyBodyGyroJerkMag.std. data from the original dataset for the given activity & subject|
-
 |81|fBodyBodyGyroJerkMag.meanFreq.|Mean of the fBodyBodyGyroJerkMag.meanFreq. data from the original dataset for the given activity & subject|
