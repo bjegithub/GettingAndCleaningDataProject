@@ -39,7 +39,6 @@ The following are the details of the data in the columns of the resulting tidy_d
 | 1 | Activity | Activity Description |
 | --- | --------- | -----------------------------------------------|
 | 2 | Subject | Subject ID |
-
 |3|tBodyAcc.mean.X|Mean of the tBodyAcc.mean.X data from the original dataset for the given activity & subject|
 
 |4|tBodyAcc.mean.Y|Mean of the tBodyAcc.mean.Y data from the original dataset for the given activity & subject|
