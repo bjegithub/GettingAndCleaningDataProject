@@ -1,6 +1,7 @@
 ## README for run_analysis.R
 
 Author: Brian Engelhardt
+
 Date: June 19, 2014
 
 The following are the necessary steps to use run_analysis.R to create a tidy data set.
