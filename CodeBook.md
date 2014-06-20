@@ -37,7 +37,8 @@ The following describes the steps taken to clean up the dataset into tidy data:
 The following are the details of the data in the columns of the resulting tidy_data.txt file:
 
 | 1 | Activity | Activity Description |
-|2|Subject|Subject ID|
+| --- | --------- | -----------------------------------------------|
+| 2 | Subject | Subject ID |
 
 |3|tBodyAcc.mean.X|Mean of the tBodyAcc.mean.X data from the original dataset for the given activity & subject|
 
